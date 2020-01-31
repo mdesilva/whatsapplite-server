@@ -1,8 +1,9 @@
-var io = require('socket.io')(3010); //listen on port 3010 for socket connections
+const port = 3050; 
+var io = require('socket.io')(port); //listen on port 3010 for socket connections
 const ConversationController = new (require("./Controllers/ConversationController"))(); 
 const UserController = new (require("./Controllers/UserController"))();
 
-console.log("Socket server running on port 3010");
+console.log("Socket server running on port " + port);
 
 async function newMessage(socket, data) {
     //Verify that sender's token is still valid, and then send message
@@ -37,7 +38,8 @@ io.on('connection', function(socket){
     */
     socket.on('newMessage', (data) => { 
         //lookup receiver's socket id and then send message to receiver
-        console.log(data);
+        console.log("INFO: received message");
+	console.log(data);
         newMessage(socket, data);
     })
 
