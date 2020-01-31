@@ -87,6 +87,21 @@ class UserController extends Controller {
         }
     }
 
+    async getUserIdbyUsername(username, res=null) {
+        const user = await User.findOne({email: username});
+        if (user) {
+            if (res) {
+                res.send({userId: user._id})
+            }
+            return user.email;
+        }
+        else {
+            if (res) {
+                res.sendStatus(404);
+            }
+            return null;
+        }
+    }
     async decodeToken(token) {
         try {
             const decodedToken = jwt.verify(token, this.secret);

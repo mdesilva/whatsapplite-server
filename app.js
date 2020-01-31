@@ -36,6 +36,10 @@ app.post("/verifyToken", function(req,res){
 app.get("/api/getUsername/", function(req,res){
     UserController.getUsernameById(req.query.userId, res);
 })
+
+app.get("/api/getUserId", function(req,res){
+    UserController.getUserIdbyUsername(req.query.username, res);
+})
 /**
  * Get all conversations for user 
  */

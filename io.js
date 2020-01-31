@@ -37,6 +37,7 @@ io.on('connection', function(socket){
     */
     socket.on('newMessage', (data) => { 
         //lookup receiver's socket id and then send message to receiver
+        console.log(data);
         newMessage(socket, data);
     })
 
