@@ -1,5 +1,5 @@
 # WhatsAppLite Server
-Server for mobile messaging application
+Server for mobile messaging application </br>
 Accompanying mobile application: https://github.com/mdesilva/whatsapplite
 
 ## Installation
