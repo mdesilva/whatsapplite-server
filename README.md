@@ -1,5 +1,6 @@
 # WhatsAppLite Server
 Server for mobile messaging application
+Accompanying mobile application: https://github.com/mdesilva/whatsapplite
 
 ## Installation
 1. Clone this repository
