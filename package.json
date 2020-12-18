@@ -71,7 +71,7 @@
     "mongoose": "^5.8.3",
     "mpath": "^0.6.0",
     "mongoose-legacy-pluralize": "^1.0.2",
-    "mquery": "^3.2.2",
+    "mquery": "^3.2.3",
     "node-bin-setup": "^1.0.6",
     "object-component": "^0.0.3",
     "ms": "^2.1.2",
