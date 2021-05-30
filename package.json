@@ -112,7 +112,7 @@
     "xmlhttprequest-ssl": "^1.5.5",
     "better-assert": "^1.0.2",
     "yeast": "^0.1.2",
-    "ws": "^7.2.1",
+    "ws": "^7.4.6",
     "node": "^13.5.0",
     "uuid": "^3.3.3"
   },
