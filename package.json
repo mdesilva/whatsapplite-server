@@ -69,7 +69,7 @@
     "mime-types": "^2.1.25",
     "mongodb": "^3.4.1",
     "mongoose": "^5.8.3",
-    "mpath": "^0.6.0",
+    "mpath": "^0.8.4",
     "mongoose-legacy-pluralize": "^1.0.2",
     "mquery": "^3.2.2",
     "node-bin-setup": "^1.0.6",
