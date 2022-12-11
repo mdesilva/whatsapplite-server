@@ -39,7 +39,7 @@
     "forwarded": "^0.1.2",
     "escape-html": "^1.0.3",
     "finalhandler": "^1.1.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fresh": "^0.5.2",
     "has-cors": "^1.1.0",
     "has-binary2": "^1.0.3",
